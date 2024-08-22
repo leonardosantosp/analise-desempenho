@@ -5,7 +5,7 @@
 
 double uniforme(){
     double u = rand() / ((double) RAND_MAX + 1);
-    //u == 0 --> 
+    //u == 0 -->  ln(u) <-- problema
     //limitando u entre (0,1]
     u = 1.0 - u;
     return u;
